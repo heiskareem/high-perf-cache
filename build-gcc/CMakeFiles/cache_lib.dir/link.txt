@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcache_lib.a CMakeFiles/cache_lib.dir/src/lru_cache.cpp.o CMakeFiles/cache_lib.dir/src/lfu_cache.cpp.o CMakeFiles/cache_lib.dir/src/arc_cache.cpp.o CMakeFiles/cache_lib.dir/src/memory_allocator.cpp.o CMakeFiles/cache_lib.dir/src/metrics.cpp.o
+/usr/bin/ranlib libcache_lib.a

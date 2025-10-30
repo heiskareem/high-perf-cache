@@ -48,7 +48,23 @@ if(GTest_FOUND)
   add_test(NAME CacheTests COMMAND cache_tests)
 endif()
 
-# Example
+# Examples
 add_executable(example examples/example_usage.cpp)
 target_link_libraries(example PRIVATE cache_lib)
 
+add_executable(example_lru examples/example_lru.cpp)
+target_link_libraries(example_lru PRIVATE cache_lib)
+
+add_executable(example_lfu examples/example_lfu.cpp)
+target_link_libraries(example_lfu PRIVATE cache_lib)
+
+add_executable(example_arc examples/example_arc.cpp)
+target_link_libraries(example_arc PRIVATE cache_lib)
+
+add_executable(example_concurrency examples/example_concurrency.cpp)
+target_link_libraries(example_concurrency PRIVATE cache_lib)
+
+add_executable(example_mixed examples/example_mixed.cpp)
+target_link_libraries(example_mixed PRIVATE cache_lib)
+
+add_custom_target(examples ALL DEPENDS example example_lru example_lfu example_arc example_concurrency example_mixed)

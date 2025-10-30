@@ -60,8 +60,9 @@ cmake --build . --config Release
 ```
 
 Targets:
-- `example` – simple usage
 - `cache_lib` – static library
+- `example`, `example_lru`, `example_lfu`, `example_arc`, `example_concurrency`, `example_mixed`
+- `examples` – builds all example executables
 - `cache_tests` – unit tests (if GTest found)
 - `cache_benchmark` – benchmarks (if Google Benchmark found)
 
@@ -92,6 +93,18 @@ Build the example:
 ```
 cmake --build build --target example --config Release
 ./build/example
+
+Run all examples (WSL/Linux):
+
+```
+./scripts/run_examples.sh
+```
+
+On Windows PowerShell:
+
+```
+./scripts/run_examples.ps1
+```
 ```
 
 ## Metrics

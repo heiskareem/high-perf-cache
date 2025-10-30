@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -march=native -pthread -O3 -DNDEBUG CMakeFiles/cache_benchmark.dir/benchmark/cache_benchmark.cpp.o -o cache_benchmark  libcache_lib.a /usr/lib/x86_64-linux-gnu/libbenchmark_main.a /usr/lib/x86_64-linux-gnu/libbenchmark.so.1.8.3 

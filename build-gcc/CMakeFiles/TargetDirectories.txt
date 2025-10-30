@@ -1,0 +1,13 @@
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-gcc/CMakeFiles/cache_lib.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-gcc/CMakeFiles/cache_benchmark.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-gcc/CMakeFiles/cache_tests.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-gcc/CMakeFiles/example.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-gcc/CMakeFiles/example_lru.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-gcc/CMakeFiles/example_lfu.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-gcc/CMakeFiles/example_arc.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-gcc/CMakeFiles/example_concurrency.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-gcc/CMakeFiles/example_mixed.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-gcc/CMakeFiles/examples.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-gcc/CMakeFiles/test.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-gcc/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-gcc/CMakeFiles/rebuild_cache.dir

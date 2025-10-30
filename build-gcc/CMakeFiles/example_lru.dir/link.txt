@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -march=native -pthread -O3 -DNDEBUG CMakeFiles/example_lru.dir/examples/example_lru.cpp.o -o example_lru  libcache_lib.a 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -march=native -pthread -O3 -DNDEBUG CMakeFiles/example.dir/examples/example_usage.cpp.o -o example  libcache_lib.a 
