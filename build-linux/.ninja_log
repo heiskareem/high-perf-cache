@@ -5,3 +5,9 @@
 62	601	1761797784671819600	CMakeFiles/cache_lib.dir/src/arc_cache.cpp.o	b0a2b783a4bf500d
 56	624	1761797784687356400	CMakeFiles/cache_lib.dir/src/lfu_cache.cpp.o	c4d2ee13cf406636
 633	832	1761797784910236900	libcache_lib.a	eae5c4f074809248
+89	618	1761797924378871100	CMakeFiles/cache_lib.dir/src/lru_cache.cpp.o	b3ede949f5bf1019
+91	641	1761797924390871700	CMakeFiles/cache_lib.dir/src/lfu_cache.cpp.o	c4d2ee13cf406636
+94	656	1761797924385871600	CMakeFiles/cache_lib.dir/src/arc_cache.cpp.o	b0a2b783a4bf500d
+663	807	1761797924574858900	libcache_lib.a	eae5c4f074809248
+98	989	1761797924725022100	CMakeFiles/example.dir/examples/example_usage.cpp.o	4ec71f0d88a3b450
+1005	1268	1761797925044455700	example	71ac8bd6b58dde31
