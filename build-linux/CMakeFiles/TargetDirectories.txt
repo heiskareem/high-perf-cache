@@ -1,5 +1,13 @@
 /mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-linux/CMakeFiles/cache_lib.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-linux/CMakeFiles/cache_benchmark.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-linux/CMakeFiles/cache_tests.dir
 /mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-linux/CMakeFiles/example.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-linux/CMakeFiles/example_lru.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-linux/CMakeFiles/example_lfu.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-linux/CMakeFiles/example_arc.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-linux/CMakeFiles/example_concurrency.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-linux/CMakeFiles/example_mixed.dir
+/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-linux/CMakeFiles/examples.dir
 /mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-linux/CMakeFiles/test.dir
 /mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-linux/CMakeFiles/edit_cache.dir
 /mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-linux/CMakeFiles/rebuild_cache.dir

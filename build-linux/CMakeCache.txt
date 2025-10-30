@@ -229,7 +229,7 @@ GTEST_MAIN_LIBRARY:FILEPATH=GTEST_MAIN_LIBRARY-NOTFOUND
 GTEST_MAIN_LIBRARY_DEBUG:FILEPATH=GTEST_MAIN_LIBRARY_DEBUG-NOTFOUND
 
 //The directory containing a CMake configuration file for GTest.
-GTest_DIR:PATH=GTest_DIR-NOTFOUND
+GTest_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/GTest
 
 //Value Computed by CMake
 HighPerfCache_BINARY_DIR:STATIC=/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache/build-linux
@@ -241,7 +241,7 @@ HighPerfCache_IS_TOP_LEVEL:STATIC=ON
 HighPerfCache_SOURCE_DIR:STATIC=/mnt/c/Users/Heisk/OneDrive/Documents/project/high-perf-cache
 
 //The directory containing a CMake configuration file for benchmark.
-benchmark_DIR:PATH=benchmark_DIR-NOTFOUND
+benchmark_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/benchmark
 
 //The directory containing a CMake configuration file for prometheus-cpp.
 prometheus-cpp_DIR:PATH=prometheus-cpp_DIR-NOTFOUND
