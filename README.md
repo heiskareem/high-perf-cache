@@ -105,6 +105,59 @@ On Windows PowerShell:
 ```
 ./scripts/run_examples.ps1
 ```
+
+The runner script auto-detects the build directory in this order: `build`, `build-linux`, `build-gcc`.
+
+## Example Output
+
+Running the examples via `./scripts/run_examples.sh` on Ubuntu/WSL produces output like:
+
+```
+Running example
+1 => one
+hit_rate=1
+size=2/2
+
+Running example_lru
+LRU example
+has 2? no
+has 1? yes
+size/capacity: 3/3
+hit_rate: 0.666667
+
+Running example_lfu
+LFU example
+has 3? no
+has 1? yes
+size/capacity: 3/3
+hit_rate: 0.8
+
+Running example_arc
+ARC example
+evicted among {2,3}: 1
+size/capacity: 3/3
+hit_rate: 0.666667
+
+Running example_concurrency
+Concurrency example
+final size/capacity: 1024/1024
+hit_rate: 1
+
+Running example_mixed
+Mixed workload example
+LRU size/hit_rate: 256/256, 1
+LFU size/hit_rate: 256/256, 1
+ARC size/hit_rate: 256/256, 1
+```
+
+### What the output shows
+
+- `example`: Minimal LRU usage; a successful `get` after `put` yields `hit_rate=1` and size equals capacity.
+- `example_lru`: Demonstrates LRU eviction. Accessing key `1` makes it MRU; inserting key `4` evicts key `2` (LRU). Hit rate reflects 2 hits out of 3 lookups.
+- `example_lfu`: Demonstrates LFU eviction. Key `1` is accessed multiple times, so inserting key `4` evicts least-frequent key `3`.
+- `example_arc`: Demonstrates ARC adaptation and eviction. One of `{2,3}` is evicted depending on recency/frequency balance.
+- `example_concurrency`: Parallel puts/gets across threads; final size is capped at capacity and immediate gets yield a high hit rate.
+- `example_mixed`: Runs LRU/LFU/ARC in parallel under a synthetic mixed workload; sizes reach capacity and the scripted access pattern produces a perfect hit rate for demonstration.
 ```
 
 ## Metrics
