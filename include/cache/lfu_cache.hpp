@@ -19,7 +19,7 @@ private:
         size_t freq;
     };
     
-    using NodeList = std::list<Node, PoolAllocator<Node>>;
+    using NodeList = std::list<Node>;
     
 public:
     explicit LFUCache(size_t capacity) 
@@ -166,4 +166,3 @@ private:
 };
 
 } // namespace cache
-

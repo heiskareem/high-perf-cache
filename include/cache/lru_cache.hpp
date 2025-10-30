@@ -18,13 +18,13 @@ private:
         typename std::list<Node>::iterator list_it;
     };
     
-    using NodeList = std::list<Node, PoolAllocator<Node>>;
+    using NodeList = std::list<Node>;
     using MapType = std::unordered_map<Key, typename NodeList::iterator>;
     
 public:
     explicit LRUCache(size_t capacity) 
         : capacity_(capacity)
-        , node_list_(PoolAllocator<Node>(capacity * 2))
+        , node_list_()
         , metrics_("lru_cache") {}
     
     bool put(const Key& key, const Value& value) override {
@@ -128,4 +128,3 @@ private:
 };
 
 } // namespace cache
-

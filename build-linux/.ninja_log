@@ -1,0 +1,7 @@
+# ninja log v5
+65	418	1761797784483170300	CMakeFiles/cache_lib.dir/src/memory_allocator.cpp.o	e57c52e456dbcdc
+68	500	1761797784546788300	CMakeFiles/cache_lib.dir/src/metrics.cpp.o	d190ba6d1e49cd6e
+52	584	1761797784650361800	CMakeFiles/cache_lib.dir/src/lru_cache.cpp.o	b3ede949f5bf1019
+62	601	1761797784671819600	CMakeFiles/cache_lib.dir/src/arc_cache.cpp.o	b0a2b783a4bf500d
+56	624	1761797784687356400	CMakeFiles/cache_lib.dir/src/lfu_cache.cpp.o	c4d2ee13cf406636
+633	832	1761797784910236900	libcache_lib.a	eae5c4f074809248

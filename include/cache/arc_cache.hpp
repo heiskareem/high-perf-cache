@@ -19,7 +19,7 @@ private:
         Value value;
     };
     
-    using NodeList = std::list<Node, PoolAllocator<Node>>;
+    using NodeList = std::list<Node>;
     
     enum class ListType { T1, T2, B1, B2 };
     
@@ -32,10 +32,10 @@ public:
     explicit ARCCache(size_t capacity) 
         : capacity_(capacity)
         , p_(0)
-        , t1_list_(PoolAllocator<Node>(capacity))
-        , t2_list_(PoolAllocator<Node>(capacity))
-        , b1_list_(PoolAllocator<Node>(capacity))
-        , b2_list_(PoolAllocator<Node>(capacity))
+        , t1_list_()
+        , t2_list_()
+        , b1_list_()
+        , b2_list_()
         , metrics_("arc_cache") {}
     
     bool put(const Key& key, const Value& value) override {
@@ -260,4 +260,3 @@ private:
 };
 
 } // namespace cache
-
